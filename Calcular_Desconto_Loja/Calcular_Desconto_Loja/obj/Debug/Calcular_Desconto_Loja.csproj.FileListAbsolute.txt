@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Calcular_Desconto_Loja\Calcular_Desconto_Loja\bin\Debug\Calcular_Desconto_Loja.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Calcular_Desconto_Loja\Calcular_Desconto_Loja\bin\Debug\Calcular_Desconto_Loja.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Calcular_Desconto_Loja\Calcular_Desconto_Loja\bin\Debug\Calcular_Desconto_Loja.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Calcular_Desconto_Loja\Calcular_Desconto_Loja\obj\Debug\Calcular_Desconto_Loja.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Calcular_Desconto_Loja\Calcular_Desconto_Loja\obj\Debug\Calcular_Desconto_Loja.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Calcular_Desconto_Loja\Calcular_Desconto_Loja\obj\Debug\Calcular_Desconto_Loja.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Calcular_Desconto_Loja\Calcular_Desconto_Loja\obj\Debug\Calcular_Desconto_Loja.pdb
