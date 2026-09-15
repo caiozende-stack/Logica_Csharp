@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\Estoque_Vinhos\\",
+  "WorkspaceRootPath": "C:\\Users\\caio.hrfoliveira\\Documents\\GitHub\\Logica_Csharp\\Estoque_Vinhos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46EDC050-AB59-420A-B2DB-60ECFB3A10F6}|Estoque_Vinhos\\Estoque_Vinhos.csproj|c:\\users\\caio.hrfoliveira\\documents\\exerciciosc#\\estoque_vinhos\\estoque_vinhos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46EDC050-AB59-420A-B2DB-60ECFB3A10F6}|Estoque_Vinhos\\Estoque_Vinhos.csproj|c:\\users\\caio.hrfoliveira\\documents\\github\\logica_csharp\\estoque_vinhos\\estoque_vinhos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46EDC050-AB59-420A-B2DB-60ECFB3A10F6}|Estoque_Vinhos\\Estoque_Vinhos.csproj|solutionrelative:estoque_vinhos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\Estoque_Vinhos\\Estoque_Vinhos\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\caio.hrfoliveira\\Documents\\GitHub\\Logica_Csharp\\Estoque_Vinhos\\Estoque_Vinhos\\Program.cs",
               "RelativeDocumentMoniker": "Estoque_Vinhos\\Program.cs",
-              "ToolTip": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\Estoque_Vinhos\\Estoque_Vinhos\\Program.cs",
+              "ToolTip": "C:\\Users\\caio.hrfoliveira\\Documents\\GitHub\\Logica_Csharp\\Estoque_Vinhos\\Estoque_Vinhos\\Program.cs",
               "RelativeToolTip": "Estoque_Vinhos\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-15T13:20:11.642Z",
               "EditorCaption": ""

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\Ano_Bissexto\\",
+  "WorkspaceRootPath": "C:\\Users\\caio.hrfoliveira\\Documents\\GitHub\\Logica_Csharp\\Ano_Bissexto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5A9C5E6-986F-4012-B288-505A17012187}|Ano_Bissexto\\Ano_Bissexto.csproj|c:\\users\\caio.hrfoliveira\\documents\\exerciciosc#\\ano_bissexto\\ano_bissexto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5A9C5E6-986F-4012-B288-505A17012187}|Ano_Bissexto\\Ano_Bissexto.csproj|c:\\users\\caio.hrfoliveira\\documents\\github\\logica_csharp\\ano_bissexto\\ano_bissexto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5A9C5E6-986F-4012-B288-505A17012187}|Ano_Bissexto\\Ano_Bissexto.csproj|solutionrelative:ano_bissexto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\Ano_Bissexto\\Ano_Bissexto\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\caio.hrfoliveira\\Documents\\GitHub\\Logica_Csharp\\Ano_Bissexto\\Ano_Bissexto\\Program.cs",
               "RelativeDocumentMoniker": "Ano_Bissexto\\Program.cs",
-              "ToolTip": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\Ano_Bissexto\\Ano_Bissexto\\Program.cs",
+              "ToolTip": "C:\\Users\\caio.hrfoliveira\\Documents\\GitHub\\Logica_Csharp\\Ano_Bissexto\\Ano_Bissexto\\Program.cs",
               "RelativeToolTip": "Ano_Bissexto\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-15T11:48:09.93Z",
               "EditorCaption": ""
