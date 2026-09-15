@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_100\Maior_100\bin\Debug\Maior_100.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_100\Maior_100\bin\Debug\Maior_100.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_100\Maior_100\bin\Debug\Maior_100.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_100\Maior_100\obj\Debug\Maior_100.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_100\Maior_100\obj\Debug\Maior_100.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_100\Maior_100\obj\Debug\Maior_100.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_100\Maior_100\obj\Debug\Maior_100.pdb

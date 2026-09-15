@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Divisão\Divisão\bin\Debug\Divisão.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Divisão\Divisão\bin\Debug\Divisão.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Divisão\Divisão\bin\Debug\Divisão.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Divisão\Divisão\obj\Debug\Divisão.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Divisão\Divisão\obj\Debug\Divisão.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Divisão\Divisão\obj\Debug\Divisão.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Divisão\Divisão\obj\Debug\Divisão.pdb

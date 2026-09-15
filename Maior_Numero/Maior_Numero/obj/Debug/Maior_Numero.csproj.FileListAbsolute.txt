@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_Numero\Maior_Numero\bin\Debug\Maior_Numero.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_Numero\Maior_Numero\bin\Debug\Maior_Numero.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_Numero\Maior_Numero\bin\Debug\Maior_Numero.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_Numero\Maior_Numero\obj\Debug\Maior_Numero.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_Numero\Maior_Numero\obj\Debug\Maior_Numero.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_Numero\Maior_Numero\obj\Debug\Maior_Numero.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Maior_Numero\Maior_Numero\obj\Debug\Maior_Numero.pdb

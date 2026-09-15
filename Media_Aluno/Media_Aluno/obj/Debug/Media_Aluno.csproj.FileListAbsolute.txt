@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Media_Aluno\Media_Aluno\bin\Debug\Media_Aluno.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Media_Aluno\Media_Aluno\bin\Debug\Media_Aluno.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Media_Aluno\Media_Aluno\bin\Debug\Media_Aluno.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Media_Aluno\Media_Aluno\obj\Debug\Media_Aluno.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Media_Aluno\Media_Aluno\obj\Debug\Media_Aluno.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Media_Aluno\Media_Aluno\obj\Debug\Media_Aluno.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Media_Aluno\Media_Aluno\obj\Debug\Media_Aluno.pdb

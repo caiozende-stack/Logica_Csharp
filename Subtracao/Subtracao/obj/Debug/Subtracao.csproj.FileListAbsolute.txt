@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Subtracao\Subtracao\bin\Debug\Subtracao.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Subtracao\Subtracao\bin\Debug\Subtracao.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Subtracao\Subtracao\bin\Debug\Subtracao.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Subtracao\Subtracao\obj\Debug\Subtracao.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Subtracao\Subtracao\obj\Debug\Subtracao.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Subtracao\Subtracao\obj\Debug\Subtracao.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Subtracao\Subtracao\obj\Debug\Subtracao.pdb

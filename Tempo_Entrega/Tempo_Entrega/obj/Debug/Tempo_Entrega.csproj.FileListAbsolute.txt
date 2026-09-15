@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Tempo_Entrega\Tempo_Entrega\bin\Debug\Tempo_Entrega.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Tempo_Entrega\Tempo_Entrega\bin\Debug\Tempo_Entrega.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Tempo_Entrega\Tempo_Entrega\bin\Debug\Tempo_Entrega.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Tempo_Entrega\Tempo_Entrega\obj\Debug\Tempo_Entrega.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Tempo_Entrega\Tempo_Entrega\obj\Debug\Tempo_Entrega.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Tempo_Entrega\Tempo_Entrega\obj\Debug\Tempo_Entrega.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Tempo_Entrega\Tempo_Entrega\obj\Debug\Tempo_Entrega.pdb

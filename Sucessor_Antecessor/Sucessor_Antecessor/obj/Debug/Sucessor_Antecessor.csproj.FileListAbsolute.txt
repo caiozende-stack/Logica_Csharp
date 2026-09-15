@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sucessor_Antecessor\Sucessor_Antecessor\bin\Debug\Sucessor_Antecessor.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sucessor_Antecessor\Sucessor_Antecessor\bin\Debug\Sucessor_Antecessor.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sucessor_Antecessor\Sucessor_Antecessor\bin\Debug\Sucessor_Antecessor.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sucessor_Antecessor\Sucessor_Antecessor\obj\Debug\Sucessor_Antecessor.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sucessor_Antecessor\Sucessor_Antecessor\obj\Debug\Sucessor_Antecessor.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sucessor_Antecessor\Sucessor_Antecessor\obj\Debug\Sucessor_Antecessor.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sucessor_Antecessor\Sucessor_Antecessor\obj\Debug\Sucessor_Antecessor.pdb

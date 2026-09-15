@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Nome_Idade\Nome_Idade\bin\Debug\Nome_Idade.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Nome_Idade\Nome_Idade\bin\Debug\Nome_Idade.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Nome_Idade\Nome_Idade\bin\Debug\Nome_Idade.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Nome_Idade\Nome_Idade\obj\Debug\Nome_Idade.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Nome_Idade\Nome_Idade\obj\Debug\Nome_Idade.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Nome_Idade\Nome_Idade\obj\Debug\Nome_Idade.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Nome_Idade\Nome_Idade\obj\Debug\Nome_Idade.pdb
