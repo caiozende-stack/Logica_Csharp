@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\Reajuste\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{072C30B7-4B92-406F-8E82-62E85D1D6DF4}|Reajuste\\Reajuste.csproj|c:\\users\\caio.hrfoliveira\\documents\\exerciciosc#\\reajuste\\reajuste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072C30B7-4B92-406F-8E82-62E85D1D6DF4}|Reajuste\\Reajuste.csproj|solutionrelative:reajuste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\Reajuste\\Reajuste\\Program.cs",
+              "RelativeDocumentMoniker": "Reajuste\\Program.cs",
+              "ToolTip": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\Reajuste\\Reajuste\\Program.cs*",
+              "RelativeToolTip": "Reajuste\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T14:23:08.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Valor_boolean\Valor_boolean\bin\Debug\Valor_boolean.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Valor_boolean\Valor_boolean\bin\Debug\Valor_boolean.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Valor_boolean\Valor_boolean\bin\Debug\Valor_boolean.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Valor_boolean\Valor_boolean\obj\Debug\Valor_boolean.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Valor_boolean\Valor_boolean\obj\Debug\Valor_boolean.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Valor_boolean\Valor_boolean\obj\Debug\Valor_boolean.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Valor_boolean\Valor_boolean\obj\Debug\Valor_boolean.pdb

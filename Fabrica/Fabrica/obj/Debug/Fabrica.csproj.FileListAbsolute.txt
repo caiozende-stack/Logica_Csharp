@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Fabrica\Fabrica\bin\Debug\Fabrica.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Fabrica\Fabrica\bin\Debug\Fabrica.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Fabrica\Fabrica\bin\Debug\Fabrica.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Fabrica\Fabrica\obj\Debug\Fabrica.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Fabrica\Fabrica\obj\Debug\Fabrica.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Fabrica\Fabrica\obj\Debug\Fabrica.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Fabrica\Fabrica\obj\Debug\Fabrica.pdb

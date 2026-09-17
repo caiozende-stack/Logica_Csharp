@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\salario_minimo\salario_minimo\bin\Debug\salario_minimo.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\salario_minimo\salario_minimo\bin\Debug\salario_minimo.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\salario_minimo\salario_minimo\bin\Debug\salario_minimo.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\salario_minimo\salario_minimo\obj\Debug\salario_minimo.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\salario_minimo\salario_minimo\obj\Debug\salario_minimo.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\salario_minimo\salario_minimo\obj\Debug\salario_minimo.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\salario_minimo\salario_minimo\obj\Debug\salario_minimo.pdb

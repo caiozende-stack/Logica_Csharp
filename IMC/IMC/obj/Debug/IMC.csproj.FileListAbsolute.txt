@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\IMC\IMC\bin\Debug\IMC.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\IMC\IMC\bin\Debug\IMC.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\IMC\IMC\bin\Debug\IMC.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\IMC\IMC\obj\Debug\IMC.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\IMC\IMC\obj\Debug\IMC.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\IMC\IMC\obj\Debug\IMC.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\IMC\IMC\obj\Debug\IMC.pdb

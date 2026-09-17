@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\A_e_B\A_e_B\bin\Debug\A_e_B.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\A_e_B\A_e_B\bin\Debug\A_e_B.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\A_e_B\A_e_B\bin\Debug\A_e_B.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\A_e_B\A_e_B\obj\Debug\A_e_B.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\A_e_B\A_e_B\obj\Debug\A_e_B.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\A_e_B\A_e_B\obj\Debug\A_e_B.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\A_e_B\A_e_B\obj\Debug\A_e_B.pdb

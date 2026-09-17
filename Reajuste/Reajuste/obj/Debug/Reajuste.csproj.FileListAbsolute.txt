@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Reajuste\Reajuste\bin\Debug\Reajuste.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Reajuste\Reajuste\bin\Debug\Reajuste.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Reajuste\Reajuste\bin\Debug\Reajuste.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Reajuste\Reajuste\obj\Debug\Reajuste.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Reajuste\Reajuste\obj\Debug\Reajuste.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Reajuste\Reajuste\obj\Debug\Reajuste.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Reajuste\Reajuste\obj\Debug\Reajuste.pdb

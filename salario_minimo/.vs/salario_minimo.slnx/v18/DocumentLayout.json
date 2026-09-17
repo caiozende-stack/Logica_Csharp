@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\salario_minimo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE05A6E6-2631-4168-9902-82D30DAB7440}|salario_minimo\\salario_minimo.csproj|c:\\users\\caio.hrfoliveira\\documents\\exerciciosc#\\salario_minimo\\salario_minimo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE05A6E6-2631-4168-9902-82D30DAB7440}|salario_minimo\\salario_minimo.csproj|solutionrelative:salario_minimo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\salario_minimo\\salario_minimo\\Program.cs",
+              "RelativeDocumentMoniker": "salario_minimo\\Program.cs",
+              "ToolTip": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\salario_minimo\\salario_minimo\\Program.cs",
+              "RelativeToolTip": "salario_minimo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T14:14:44.562Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
