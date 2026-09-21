@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Cadastra_de_Bandas\Cadastra_de_Bandas\bin\Debug\Cadastra_de_Bandas.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Cadastra_de_Bandas\Cadastra_de_Bandas\bin\Debug\Cadastra_de_Bandas.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Cadastra_de_Bandas\Cadastra_de_Bandas\bin\Debug\Cadastra_de_Bandas.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Cadastra_de_Bandas\Cadastra_de_Bandas\obj\Debug\Cadastra_de_Bandas.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Cadastra_de_Bandas\Cadastra_de_Bandas\obj\Debug\Cadastra_de_Bandas.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Cadastra_de_Bandas\Cadastra_de_Bandas\obj\Debug\Cadastra_de_Bandas.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Cadastra_de_Bandas\Cadastra_de_Bandas\obj\Debug\Cadastra_de_Bandas.pdb
