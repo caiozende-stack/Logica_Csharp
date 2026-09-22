@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\Cadastra_de_Bandas\\",
+  "WorkspaceRootPath": "C:\\Users\\caio.hrfoliveira\\Documents\\GitHub\\Logica_Csharp\\Exercicios_21_09_2026\\Cadastra_de_Bandas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F84DD47-4F6F-43C1-82AC-6AD8B0C9DEDA}|Cadastra_de_Bandas\\Cadastra_de_Bandas.csproj|c:\\users\\caio.hrfoliveira\\documents\\exerciciosc#\\cadastra_de_bandas\\cadastra_de_bandas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F84DD47-4F6F-43C1-82AC-6AD8B0C9DEDA}|Cadastra_de_Bandas\\Cadastra_de_Bandas.csproj|c:\\users\\caio.hrfoliveira\\documents\\github\\logica_csharp\\exercicios_21_09_2026\\cadastra_de_bandas\\cadastra_de_bandas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F84DD47-4F6F-43C1-82AC-6AD8B0C9DEDA}|Cadastra_de_Bandas\\Cadastra_de_Bandas.csproj|solutionrelative:cadastra_de_bandas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\Cadastra_de_Bandas\\Cadastra_de_Bandas\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\caio.hrfoliveira\\Documents\\GitHub\\Logica_Csharp\\Exercicios_21_09_2026\\Cadastra_de_Bandas\\Cadastra_de_Bandas\\Program.cs",
               "RelativeDocumentMoniker": "Cadastra_de_Bandas\\Program.cs",
-              "ToolTip": "C:\\Users\\caio.hrfoliveira\\Documents\\ExerciciosC#\\Cadastra_de_Bandas\\Cadastra_de_Bandas\\Program.cs",
+              "ToolTip": "C:\\Users\\caio.hrfoliveira\\Documents\\GitHub\\Logica_Csharp\\Exercicios_21_09_2026\\Cadastra_de_Bandas\\Cadastra_de_Bandas\\Program.cs",
               "RelativeToolTip": "Cadastra_de_Bandas\\Program.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAADwv6wAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAKwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-21T13:28:35.737Z",
               "EditorCaption": ""

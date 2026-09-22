@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sistema_Biblioteca\Sistema_Biblioteca\bin\Debug\Sistema_Biblioteca.exe.config
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sistema_Biblioteca\Sistema_Biblioteca\bin\Debug\Sistema_Biblioteca.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sistema_Biblioteca\Sistema_Biblioteca\bin\Debug\Sistema_Biblioteca.pdb
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sistema_Biblioteca\Sistema_Biblioteca\obj\Debug\Sistema_Biblioteca.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sistema_Biblioteca\Sistema_Biblioteca\obj\Debug\Sistema_Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sistema_Biblioteca\Sistema_Biblioteca\obj\Debug\Sistema_Biblioteca.exe
+C:\Users\caio.hrfoliveira\Documents\ExerciciosC#\Sistema_Biblioteca\Sistema_Biblioteca\obj\Debug\Sistema_Biblioteca.pdb
