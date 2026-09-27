@@ -1,0 +1,7 @@
+C:\Users\caio-\OneDrive\Documentos\VisualStudio\Clinica_Podologia\Clinica_Podologia\bin\Debug\Clinica_Podologia.exe.config
+C:\Users\caio-\OneDrive\Documentos\VisualStudio\Clinica_Podologia\Clinica_Podologia\bin\Debug\Clinica_Podologia.exe
+C:\Users\caio-\OneDrive\Documentos\VisualStudio\Clinica_Podologia\Clinica_Podologia\bin\Debug\Clinica_Podologia.pdb
+C:\Users\caio-\OneDrive\Documentos\VisualStudio\Clinica_Podologia\Clinica_Podologia\obj\Debug\Clinica_Podologia.csproj.AssemblyReference.cache
+C:\Users\caio-\OneDrive\Documentos\VisualStudio\Clinica_Podologia\Clinica_Podologia\obj\Debug\Clinica_Podologia.csproj.CoreCompileInputs.cache
+C:\Users\caio-\OneDrive\Documentos\VisualStudio\Clinica_Podologia\Clinica_Podologia\obj\Debug\Clinica_Podologia.exe
+C:\Users\caio-\OneDrive\Documentos\VisualStudio\Clinica_Podologia\Clinica_Podologia\obj\Debug\Clinica_Podologia.pdb
