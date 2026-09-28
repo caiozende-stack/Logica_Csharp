@@ -7,57 +7,48 @@ using System.Threading.Tasks;
 
 namespace Clinica_Podologia
 {
-
-
-    public class ClientePodologia
-    {
-        public int Id { get; set; }
-        public string Nome { get; set; }
-        public string CPF { get; set; }
-        public string Telefone { get; set; }
-        public DateTime Data_nascimento { get; set; }
-        public bool Diabetes { get; set; }
-        public string Observacao { get; set; }
-    }
-
-    public class Podologo
-    {
-
-        public int Id { get; set; }
-        public string Nome { get; set; }
-        public string Registro_Profissional { get; set; }
-        public string Especialidade { get; set; }
-        public string Telefone { get; set; }
-
-    }
-
-    public class Procedimento
-    {
-        public int Id { get; set; }
-        public string Nome { get; set; }
-        public int Duracao { get; set; }
-        public double Valor { get; set; }
-    }
-
-    public class Agendamento
-    {
-        public int Id { get; set; }
-        public int ClientId { get; set; }
-        public int PodologoId { get; set; }
-        public int ProcedimentoId {  get; set; }
-
-        public DateTime DataHora{ get; set; }
-        public string Status { get; set; }
-    }
-
-
     internal class Program
     {
 
-      static  List<ClientePodologia> clientes = new List<ClientePodologia>();
-      static List<Podologo> podologos = new List<Podologo>();
-      static List<Procedimento> procedimentos= new List<Procedimento>();
-      static  List<Agendamento> agendamentos = new List<Agendamento>();
+        public static class ClientePodologia
+        {
+            public static int Id;
+            public static string Nome;
+            public static string CPF;
+            public static string Telefone;
+            public static DateTime Data_nascimento;
+            public static bool Diabetes;
+            public static string Observacao;
+        }
+
+        public static class Podologo
+        {
+
+            public static int Id;
+            public static string Nome;
+            public static string Registro_Profissional;
+            public static string Especialidade;
+            public static string Telefone;
+
+        }
+        public static class Procedimento
+        {
+            public static int Id;
+            public static string Nome;
+            public static int Duracao;
+            public static double Valor;
+        }
+
+        public static class Agendamento
+        {
+            public static int Id;
+            public static int ClientId;
+            public static int PodologoId;
+            public static int ProcedimentoId;
+
+            public static DateTime DataHora;
+            public static string Status;
+        }
 
       static int proximoIdCliente = 1;
       static int proximoIdPodologo = 1;
@@ -136,68 +127,72 @@ namespace Clinica_Podologia
         {
 
             Console.Clear();
-            ClientePodologia cliente= new ClientePodologia();
+           
 
             Console.WriteLine("==========================================");
             Console.WriteLine("       CADASTRO DE CLIENTE");
             Console.WriteLine("==========================================");
 
 
-            cliente.Id = proximoIdCliente++;
+            ClientePodologia.Id = proximoIdCliente++;
 
             Console.Write("Nome completo: ");
-            cliente.Nome = Console.ReadLine();
+            ClientePodologia.Nome = Console.ReadLine();
 
             Console.Write("CPF: ");
-            cliente.CPF = Console.ReadLine();
+            ClientePodologia.CPF = Console.ReadLine();
 
             Console.Write("Telefone: ");
-            cliente.Telefone = Console.ReadLine();
+            ClientePodologia.Telefone = Console.ReadLine();
 
             Console.Write("Data de nascimento (dd/MM/yyyy): ");
-            cliente.Data_nascimento = DateTime.Parse(Console.ReadLine());
+            ClientePodologia.Data_nascimento = DateTime.Parse(Console.ReadLine());
 
             Console.Write("Possui diabetes? (S/N): ");
             string diabete = Console.ReadLine();
 
-            cliente.Diabetes = diabete.ToUpper() == "S";
+            ClientePodologia.Diabetes = diabete.ToUpper() == "S";
 
             Console.Write("Observações da anamnese: ");
-            cliente.Observacao = Console.ReadLine();
+            ClientePodologia.Observacao = Console.ReadLine();
 
-            clientes.Add(cliente);
-
-           
+          
             Console.WriteLine("\nCliente cadastrado com sucesso!");
             Thread.Sleep(2000);
+
+            
+
+
+
+
         }
 
         static void CadastrarPodologo()
         {
 
             Console.Clear();
-            Podologo podologo= new Podologo();
+            
 
             Console.WriteLine("==========================================");
             Console.WriteLine("       CADASTRO DE PODOLOGO");
             Console.WriteLine("==========================================");
 
 
-            podologo.Id = proximoIdPodologo++;
+            Podologo.Id = proximoIdPodologo++;
 
             Console.Write("Nome completo: ");
-            podologo.Nome = Console.ReadLine();
+            Podologo.Nome = Console.ReadLine();
 
             Console.Write("Registro Profissional: ");
-            podologo.Registro_Profissional = Console.ReadLine();
+            Podologo.Registro_Profissional = Console.ReadLine();
 
             Console.Write("Especialidade: ");
-            podologo.Especialidade = Console.ReadLine();
+            Podologo.Especialidade = Console.ReadLine();
 
             Console.Write("Telefone: ");
-            podologo.Telefone = Console.ReadLine();
+            Podologo.Telefone = Console.ReadLine();
 
-            podologos.Add(podologo);
+           
 
             Console.WriteLine("\nPodologo cadastrado com sucesso!");
             Thread.Sleep(2000);
@@ -207,24 +202,24 @@ namespace Clinica_Podologia
         static void CadastrarProcedimento()
         {
             Console.Clear();
-            Procedimento procedimento= new Procedimento();
+           
 
             Console.WriteLine("==========================================");
             Console.WriteLine("       CADASTRO DE PROCEDIMENTO");
             Console.WriteLine("==========================================");
 
-            procedimento.Id= proximoIdProcedimento++;
+            Procedimento.Id= proximoIdProcedimento++;
 
             Console.WriteLine("Nome:");
-            procedimento.Nome= Console.ReadLine();
+            Procedimento.Nome= Console.ReadLine();
 
             Console.WriteLine("Duração(minutos)");
-            procedimento.Duracao=int.Parse(Console.ReadLine());
+            Procedimento.Duracao=int.Parse(Console.ReadLine());
 
             Console.WriteLine("Valor:");
-            procedimento.Valor=double.Parse(Console.ReadLine());
+            Procedimento.Valor=double.Parse(Console.ReadLine());
 
-            procedimentos.Add(procedimento);
+           
             
             Console.WriteLine("\n Procedimento realizado com sucesso!");
             Thread.Sleep(2000);
@@ -233,30 +228,30 @@ namespace Clinica_Podologia
         static void CadastrarAgendamento()
         {
             Console.Clear();
-            Agendamento agendamento = new Agendamento();
+           
 
             Console.WriteLine("==========================================");
             Console.WriteLine("       CADASTRO DE AGENDAMENTOS");
             Console.WriteLine("==========================================");
 
-            agendamento.Id = proximoIdAgendamento++;
+            Agendamento.Id = proximoIdAgendamento++;
 
             Console.Write("ID do cliente: ");
-            agendamento.ClientId = int.Parse(Console.ReadLine());
+            Agendamento.ClientId = int.Parse(Console.ReadLine());
 
             Console.Write("ID do podólogo: ");
-            agendamento.PodologoId = int.Parse(Console.ReadLine());
+            Agendamento.PodologoId = int.Parse(Console.ReadLine());
 
             Console.Write("ID do procedimento: ");
-            agendamento.ProcedimentoId = int.Parse(Console.ReadLine());
+            Agendamento.ProcedimentoId = int.Parse(Console.ReadLine());
 
             Console.Write("Data e hora da consulta (dd/MM/yyyy HH:mm): ");
-            agendamento.DataHora =DateTime.Parse(Console.ReadLine());
+            Agendamento.DataHora =DateTime.Parse(Console.ReadLine());
 
             Console.Write("Status: ");
-            agendamento.Status =Console.ReadLine();
+            Agendamento.Status =Console.ReadLine();
 
-            agendamentos.Add(agendamento);
+           
 
           
             Console.WriteLine("\n Agendamento realizado com sucesso!");
@@ -270,22 +265,21 @@ namespace Clinica_Podologia
             Console.WriteLine("          AGENDAMENTOS");
             Console.WriteLine("==========================================");
 
-            foreach (Agendamento agendamento in agendamentos)
-            {
+           
                 
                 Console.WriteLine("\n------------------------------------------");
-                Console.WriteLine("ID: " + agendamento.Id);
-                Console.WriteLine("Cliente ID: " + agendamento.ClientId);
-                Console.WriteLine("Podólogo ID: " + agendamento.PodologoId);
-                Console.WriteLine("Procedimento ID: " + agendamento.ProcedimentoId);
-                Console.WriteLine("Data/Hora: " +agendamento.DataHora.ToString("dd/MM/yyyy HH:mm"));
-                Console.WriteLine("Status: " +  agendamento.Status);
+                Console.WriteLine("ID: " + Agendamento.Id);
+                Console.WriteLine("Cliente ID: " + Agendamento.ClientId);
+                Console.WriteLine("Podólogo ID: " + Agendamento.PodologoId);
+                Console.WriteLine("Procedimento ID: " + Agendamento.ProcedimentoId);
+                Console.WriteLine("Data/Hora: " +Agendamento.DataHora.ToString("dd/MM/yyyy HH:mm"));
+                Console.WriteLine("Status: " +  Agendamento.Status);
                 Console.WriteLine("------------------------------------------");
 
                 Console.WriteLine("\n\nPressione Enter para voltar");
                 Console.ReadKey();
 
-            }
+            
         }
 
         static void ExibirTodosCadastros()
@@ -301,18 +295,18 @@ namespace Clinica_Podologia
            
             Console.WriteLine("\n========== CLIENTES ==========");
 
-                foreach (ClientePodologia cliente in clientes)
-                {
+               
+                
                     Console.WriteLine("\n------------------------------------------");
-                    Console.WriteLine("ID: " + cliente.Id);
-                    Console.WriteLine("Nome: " + cliente.Nome);
-                    Console.WriteLine("CPF: " + cliente.CPF);
-                    Console.WriteLine("Telefone: " + cliente.Telefone);
-                    Console.WriteLine("Data de nascimento: " + cliente.Data_nascimento.ToString("dd/MM/yyyy"));
-                    Console.WriteLine("Possui diabetes: " + (cliente.Diabetes ? "Sim" : "Não"));
-                    Console.WriteLine("Observações: " + cliente.Observacao);
+                    Console.WriteLine("ID: " + ClientePodologia.Id);
+                    Console.WriteLine("Nome: " + ClientePodologia.Nome);
+                    Console.WriteLine("CPF: " + ClientePodologia.CPF);
+                    Console.WriteLine("Telefone: " + ClientePodologia.Telefone);
+                    Console.WriteLine("Data de nascimento: " + ClientePodologia.Data_nascimento.ToString("dd/MM/yyyy"));
+                    Console.WriteLine("Possui diabetes: " + (ClientePodologia.Diabetes ? "Sim" : "Não"));
+                    Console.WriteLine("Observações: " + ClientePodologia.Observacao);
                     Console.WriteLine("------------------------------------------");
-                }
+                
             }
 
             // PODOLOGOS
@@ -320,16 +314,15 @@ namespace Clinica_Podologia
             {
                 Console.WriteLine("\n ========== PODOLOGOS ==========");
 
-                foreach (Podologo podologo in podologos)
-                {
+                
                     Console.WriteLine("\n------------------------------------------");
-                    Console.WriteLine("ID: " + podologo.Id);
-                    Console.WriteLine("Nome: " + podologo.Nome);
-                    Console.WriteLine("Registro profissional: " + podologo.Registro_Profissional);
-                    Console.WriteLine("Especialidade: " + podologo.Especialidade);
-                    Console.WriteLine("Telefone: " + podologo.Telefone);
+                    Console.WriteLine("ID: " + Podologo.Id);
+                    Console.WriteLine("Nome: " + Podologo.Nome);
+                    Console.WriteLine("Registro profissional: " + Podologo.Registro_Profissional);
+                    Console.WriteLine("Especialidade: " + Podologo.Especialidade);
+                    Console.WriteLine("Telefone: " + Podologo.Telefone);
                     Console.WriteLine("------------------------------------------");
-                }
+                
 
             }
 
@@ -342,15 +335,14 @@ namespace Clinica_Podologia
 
                 Console.WriteLine("\n========== PROCEDIMENTOS ==========");
 
-                foreach (Procedimento procedimento in procedimentos)
-                {
+               
                     Console.WriteLine("\n------------------------------------------");
-                    Console.WriteLine("ID: " + procedimento.Id);
-                    Console.WriteLine("Nome: " + procedimento.Nome);
-                    Console.WriteLine("Duração: " + procedimento.Duracao + " minutos");
-                    Console.WriteLine("Valor: R$ " + procedimento.Valor.ToString("F2"));
+                    Console.WriteLine("ID: " + Procedimento.Id);
+                    Console.WriteLine("Nome: " + Procedimento.Nome);
+                    Console.WriteLine("Duração: " + Procedimento.Duracao + " minutos");
+                    Console.WriteLine("Valor: R$ " + Procedimento.Valor.ToString("F2"));
                     Console.WriteLine("------------------------------------------");
-                }
+                
 
             }
 
@@ -361,17 +353,16 @@ namespace Clinica_Podologia
 
                 Console.WriteLine("\n========== AGENDAMENTOS ==========");
 
-                foreach (Agendamento agendamento in agendamentos)
-                {
+                
                     Console.WriteLine("\n------------------------------------------");
-                    Console.WriteLine("ID: " + agendamento.Id);
-                    Console.WriteLine("Cliente ID: " + agendamento.ClientId);
-                    Console.WriteLine("Podólogo ID: " + agendamento.PodologoId);
-                    Console.WriteLine("Procedimento ID: " + agendamento.ProcedimentoId);
-                    Console.WriteLine("Data/Hora: " + agendamento.DataHora.ToString("dd/MM/yyyy HH:mm"));
-                    Console.WriteLine("Status: " + agendamento.Status);
+                    Console.WriteLine("ID: " + Agendamento.Id);
+                    Console.WriteLine("Cliente ID: " + Agendamento.ClientId);
+                    Console.WriteLine("Podólogo ID: " + Agendamento.PodologoId);
+                    Console.WriteLine("Procedimento ID: " + Agendamento.ProcedimentoId);
+                    Console.WriteLine("Data/Hora: " + Agendamento.DataHora.ToString("dd/MM/yyyy HH:mm"));
+                    Console.WriteLine("Status: " + Agendamento.Status);
                     Console.WriteLine("------------------------------------------");
-                }
+                
 
             }
                 Console.WriteLine("\n\nPressione Enter para voltar");
