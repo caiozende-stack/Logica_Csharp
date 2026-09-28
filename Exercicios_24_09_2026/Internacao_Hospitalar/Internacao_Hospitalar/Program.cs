@@ -7,64 +7,71 @@ using System.Threading.Tasks;
 
 namespace Internacao_Hospitalar
 {
-
-    public class Paciente
-    {
-        public int Id { get; set; }
-        public string Nome { get; set; }
-        public string CPF { get; set; }
-        public DateTime DataNascimento { get; set; }
-        public string TipoSanguineo { get; set; }
-        public string Alergias { get; set; }
-        public string ContatoEmergencia { get; set; }
-    }
-
-    
-    public class Medico
-    {
-        public int Id { get; set; }
-        public string Nome { get; set; }
-        public string CRM { get; set; }
-        public string Especialidade { get; set; }
-        public string Telefone { get; set; }
-    }
-
-  
-    public class Leito
-    {
-        public int Id { get; set; }
-        public string NumeroQuarto { get; set; }
-        public string Tipo { get; set; }
-        public bool EstaOcupado { get; set; }
-    }
-
-  
-    public class Internacao
-    {
-        public int Id { get; set; }
-        public int PacienteId { get; set; }
-        public int MedicoResponsavelId { get; set; }
-        public int LeitoId { get; set; }
-        public DateTime DataEntrada { get; set; }
-        public DateTime DataAlta { get; set; }
-        public string DiagnosticoEntrada { get; set; }
-        public string Status { get; set; }
-    }
-
-
+   
     internal class Program
     {
 
-        static List<Paciente> pacientes = new List<Paciente>();
-        static List<Medico> medicos = new List<Medico>();
-        static List<Leito> leitos = new List<Leito>();
-        static List<Internacao> internacoes = new List<Internacao>();
+        public static class Paciente
+        {
+            public static int Id;
+            public static string Nome;
+            public static string CPF;
+            public static DateTime DataNascimento;
+            public static string TipoSanguineo;
+            public static string Alergias;
+            public static string ContatoEmergencia;
+        }
+
+
+        public static class Medico
+        {
+            public static int Id;
+            public static string Nome;
+            public static string CRM;
+            public static string Especialidade;
+            public static string Telefone;
+        }
+
+        public static class Leito
+        {
+            public static int Id;
+            public static string NumeroQuarto;
+            public static string Tipo;
+            public static bool EstaOcupado;
+        }
+
+        public static class Internacao
+        {
+            public static int Id;
+            public static int PacienteId;
+            public static int MedicoResponsavelId;
+            public static int LeitoId;
+            public static DateTime DataEntrada;
+            public static DateTime? DataAlta=null;
+            public static string DiagnosticoEntrada;
+            public static string Status;
+        }
+
+        public static class Alta
+        {
+            public static int Id;
+            public static int InternacaoId;
+            public static int MedicoResponsavelId;
+            public static int PacienteId;
+            public static DateTime? DataAlta;
+            public static string ObservacaoAlta;
+
+        }
+
+        
 
         static int proximoIdPaciente = 1;
         static int proximoIdMedico = 1;
         static int proximoIdLeito = 1;
         static int proximoIdInternacao = 1;
+        static int proximoIdAlta = 1;
 
+        static int internados = 0;
 
         static void Main(string[] args)
         {
@@ -74,7 +81,7 @@ namespace Internacao_Hospitalar
             do
             {
                 Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("==================================================");
                 Console.WriteLine("        SISTEMA DE INTERNAÇÃO HOSPITALAR");
                 Console.WriteLine("==================================================");
@@ -140,34 +147,37 @@ namespace Internacao_Hospitalar
 
         static void CadastrarPaciente()
         {
-            Paciente paciente = new Paciente();
+           
 
-            paciente.Id = proximoIdPaciente++;
+            Paciente.Id = proximoIdPaciente++;
 
             Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("==========================================");
             Console.WriteLine("          CADASTRO DE PACIENTE");
             Console.WriteLine("==========================================");
+            Console.ResetColor();
+            Console.WriteLine("Paciente ID: "+Paciente.Id);
 
             Console.Write("Nome: ");
-            paciente.Nome = Console.ReadLine();
+            Paciente.Nome = Console.ReadLine();
 
             Console.Write("CPF: ");
-            paciente.CPF = Console.ReadLine();
+            Paciente.CPF = Console.ReadLine();
 
             Console.Write("Data de nascimento: ");
-            paciente.DataNascimento = DateTime.Parse(Console.ReadLine());
+            Paciente.DataNascimento = DateTime.Parse(Console.ReadLine());
 
             Console.Write("Tipo sanguíneo: ");
-            paciente.TipoSanguineo = Console.ReadLine();
+            Paciente.TipoSanguineo = Console.ReadLine();
 
             Console.Write("Alergias: ");
-            paciente.Alergias = Console.ReadLine();
+            Paciente.Alergias = Console.ReadLine();
 
             Console.Write("Contato de emergência: ");
-            paciente.ContatoEmergencia = Console.ReadLine();
+            Paciente.ContatoEmergencia = Console.ReadLine();
 
-            pacientes.Add(paciente);
+           
 
             
             Console.WriteLine("\nPaciente cadastrado com sucesso!");
@@ -177,28 +187,30 @@ namespace Internacao_Hospitalar
 
         static void CadastrarMedico()
         {
-            Medico medico = new Medico();
+            
 
-            medico.Id = proximoIdMedico++;
-
+            Medico.Id = proximoIdMedico++;
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Clear();
             Console.WriteLine("==========================================");
             Console.WriteLine("            CADASTRO DE MÉDICO");
             Console.WriteLine("==========================================");
+            Console.ResetColor();
+            Console.WriteLine("Medico ID: "+ Medico.Id);
 
             Console.Write("Nome: ");
-            medico.Nome = Console.ReadLine();
+            Medico.Nome = Console.ReadLine();
 
             Console.Write("CRM: ");
-            medico.CRM = Console.ReadLine();
+            Medico.CRM = Console.ReadLine();
 
             Console.Write("Especialidade: ");
-            medico.Especialidade = Console.ReadLine();
+            Medico.Especialidade = Console.ReadLine();
 
             Console.Write("Telefone: ");
-            medico.Telefone = Console.ReadLine();
+            Medico.Telefone = Console.ReadLine();
 
-            medicos.Add(medico);
+           
 
             Console.WriteLine("\nMédico cadastrado com sucesso!");
             Thread.Sleep(2000);
@@ -208,26 +220,28 @@ namespace Internacao_Hospitalar
 
         static void CadastrarLeito()
         {
-            Leito leito = new Leito();
+            
 
-            leito.Id = proximoIdLeito++;
-
+            Leito.Id = proximoIdLeito++;
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Clear();
             Console.WriteLine("==========================================");
             Console.WriteLine("             CADASTRO DE LEITO");
             Console.WriteLine("==========================================");
-
+            Console.ResetColor();
+            Console.WriteLine("Leito ID: "+Leito.Id);
             Console.Write("Número do quarto/ala: ");
-            leito.NumeroQuarto =
+            Leito.NumeroQuarto =
                 Console.ReadLine();
 
             Console.Write("Tipo do leito: ");
-            leito.Tipo = Console.ReadLine();
+            Leito.Tipo = Console.ReadLine();
 
-            Console.Write("Está ocupado? (true/false): ");
-            leito.EstaOcupado = bool.Parse(Console.ReadLine());
+            // Console.Write("Está ocupado? (true/false): ");
+            // Leito.EstaOcupado = bool.Parse(Console.ReadLine());
 
-            leitos.Add(leito);
+            //leito inicia vazio
+            Leito.EstaOcupado = false;
 
             Console.WriteLine("\nLeito cadastrado com sucesso!");
             Thread.Sleep(2000);
@@ -235,38 +249,40 @@ namespace Internacao_Hospitalar
 
         static void RegistrarInternacao()
         {
-            Internacao internacao = new Internacao();
+            
 
-            internacao.Id = proximoIdInternacao++;
-
+            Internacao.Id = proximoIdInternacao++;
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Clear();
             Console.WriteLine("==========================================");
             Console.WriteLine("         REGISTRAR INTERNAÇÃO");
             Console.WriteLine("==========================================");
+            Console.ResetColor();
+            Console.WriteLine("Internação ID: "+Internacao.Id);
 
             Console.Write("ID do paciente: ");
-            internacao.PacienteId = int.Parse(Console.ReadLine());
+            Internacao.PacienteId = int.Parse(Console.ReadLine());
 
             Console.Write("ID do médico responsável: ");
-            internacao.MedicoResponsavelId = int.Parse(Console.ReadLine());
+            Internacao.MedicoResponsavelId = int.Parse(Console.ReadLine());
 
             Console.Write("ID do leito: ");
-            internacao.LeitoId = int.Parse(Console.ReadLine());
+            Internacao.LeitoId = int.Parse(Console.ReadLine());
 
-            Console.Write("Data de entrada: ");
-            internacao.DataEntrada = DateTime.Parse(Console.ReadLine());
+            Console.Write("Data de entrada(dd/mm/aaaa HH:mm) : ");
+            Internacao.DataEntrada = DateTime.Parse(Console.ReadLine());
 
-            Console.Write("Data de alta: ");
-            internacao.DataAlta = DateTime.Parse(Console.ReadLine());
 
             Console.Write("Diagnóstico de entrada: ");
-            internacao.DiagnosticoEntrada = Console.ReadLine();
+            Internacao.DiagnosticoEntrada = Console.ReadLine();
 
-            Console.Write("Status: ");
-            internacao.Status = Console.ReadLine();
 
-            internacoes.Add(internacao);
+            Internacao.Status = "Internado";
 
+            internados++;
+
+            //Reserva o Leito
+            Leito.EstaOcupado = true;
           
             Console.WriteLine("\nInternação cadastrada com sucesso!");
             Thread.Sleep(2000);
@@ -275,111 +291,159 @@ namespace Internacao_Hospitalar
 
         static void DarAltaHospitalar()
         {
-            Internacao internacao = new Internacao();
-
+           
+                Alta.Id = proximoIdAlta++;
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Clear();
-            Console.WriteLine("==========================================");
-            Console.WriteLine("           DAR ALTA HOSPITALAR");
-            Console.WriteLine("==========================================");
+                Console.WriteLine("==========================================");
+                Console.WriteLine("           DAR ALTA HOSPITALAR");
+                Console.WriteLine("==========================================");
+            Console.ResetColor();
+            if (internados > 0)
+            {
 
-            Console.Write("ID da internação: ");
-            internacao.Id = int.Parse(Console.ReadLine());
+                Console.WriteLine("Alta ID: " + Alta.Id);
 
-            Console.Write("Data de alta: ");
-            internacao.DataAlta = DateTime.Parse(Console.ReadLine());
+                Console.Write("ID da internação: ");
+                Alta.InternacaoId = int.Parse(Console.ReadLine());
+                Console.Write("ID do Paciente: ");
+                Alta.PacienteId = int.Parse(Console.ReadLine());
+                Console.Write("ID do Médico:");
+                Alta.MedicoResponsavelId = int.Parse(Console.ReadLine());
 
-            Console.Write("Status: ");
-            internacao.Status = Console.ReadLine();
 
-            Console.WriteLine();
-            Console.WriteLine("Alta hospitalar registrada!");
-            Thread.Sleep(2000);
+                Console.Write("Data de alta(dd/mm/aaaa HH:mm): ");
+
+                Internacao.DataAlta = DateTime.Parse(Console.ReadLine());
+                Alta.DataAlta = Internacao.DataAlta;
+
+
+                Console.Write("Observações: ");
+                Alta.ObservacaoAlta = Console.ReadLine();
+
+                Internacao.Status = "Alta Concluida";
+
+                internados--;
+                // libera o leito
+                Leito.EstaOcupado = false;
+
+                Console.WriteLine();
+                Console.WriteLine("Alta hospitalar registrada!");
+                Thread.Sleep(2000);
+            }
+            else
+            {
+                
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("Nao há pacientes internados");
+                Console.WriteLine("\n\nPressione Enter para voltar");
+                Console.ResetColor();
+                Console.ReadKey();
+            }
+
+
+           
         }
 
         static void ListarPacientesInternados()
         {
-            Console.Clear();
+                Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("==========================================");
-            Console.WriteLine("       PACIENTES INTERNADOS");
-            Console.WriteLine("==========================================");
+                Console.WriteLine("       PACIENTES INTERNADOS");
+                Console.WriteLine("==========================================");
+            Console.ResetColor();
 
-            foreach (Internacao internacao in internacoes)
+            if (internados >0)
             {
-                Console.WriteLine();
-                Console.WriteLine("ID da internação: " + internacao.Id);
 
-                Console.WriteLine("Paciente ID: " + internacao.PacienteId);
+                Console.WriteLine("ID da internação: " + Internacao.Id);
 
-                Console.WriteLine("Médico ID: " + internacao.MedicoResponsavelId);
+                Console.WriteLine("Paciente ID: " + Internacao.PacienteId);
 
-                Console.WriteLine("Leito ID: " + internacao.LeitoId);
+                Console.WriteLine("Médico ID: " + Internacao.MedicoResponsavelId);
 
-                Console.WriteLine("Data de entrada: " + internacao.DataEntrada.ToString("dd/MM/yyyy HH:mm"));
+                Console.WriteLine("Leito ID: " + Internacao.LeitoId);
 
-                Console.WriteLine("Data de alta: " + internacao.DataAlta);
+                Console.WriteLine("Data de entrada: " + Internacao.DataEntrada.ToString("dd/MM/yyyy HH:mm"));
 
-                Console.WriteLine("Diagnóstico: " + internacao.DiagnosticoEntrada);
+                Console.WriteLine("Data de alta: " + Internacao.DataAlta);
 
-                Console.WriteLine("Status: " + internacao.Status);
+                Console.WriteLine("Diagnóstico: " + Internacao.DiagnosticoEntrada);
+
+                Console.WriteLine("Status: " + Internacao.Status);
+
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("\n\nPressione Enter para voltar");
+                Console.ResetColor();
+                Console.ReadKey();
+
             }
+            else
+            {
 
-            Console.WriteLine("\n\nPressione Enter para voltar");
-            Console.ReadKey();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("Nao há pacientes internados");
+                Console.WriteLine("\n\nPressione Enter para voltar");
+                Console.ResetColor();
+                Console.ReadKey();
+            }
 
         }
 
 
         static void ExibirRelatorioGeral()
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Clear();
             Console.WriteLine("==================================================");
             Console.WriteLine("          RELATÓRIO GERAL DO HOSPITAL");
             Console.WriteLine("==================================================");
-
+            Console.ResetColor();
             // PACIENTES
           
 
             if (proximoIdPaciente > 1)
             {
-
-            Console.WriteLine("\n========== PACIENTES ==========");
-
-                foreach (Paciente paciente in pacientes)
-                {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("\n========== PACIENTES ==========");
+                Console.ResetColor();
+                
+                
                     Console.WriteLine();
-                    Console.WriteLine("ID: " + paciente.Id);
-                    Console.WriteLine("Nome: " + paciente.Nome);
-                    Console.WriteLine("CPF: " + paciente.CPF);
+                    Console.WriteLine("ID: " + Paciente.Id);
+                    Console.WriteLine("Nome: " + Paciente.Nome);
+                    Console.WriteLine("CPF: " + Paciente.CPF);
                     Console.WriteLine("Data de nascimento: " +
-                        paciente.DataNascimento.ToString("dd/MM/yyyy"));
+                        Paciente.DataNascimento.ToString("dd/MM/yyyy"));
                     Console.WriteLine("Tipo sanguíneo: " +
-                        paciente.TipoSanguineo);
+                        Paciente.TipoSanguineo);
                     Console.WriteLine("Alergias: " +
-                        paciente.Alergias);
+                        Paciente.Alergias);
                     Console.WriteLine("Contato de emergência: " +
-                        paciente.ContatoEmergencia);
-                }
+                        Paciente.ContatoEmergencia);
+                
             }
+
             // MÉDICOS
 
          
 
             if (proximoIdMedico > 1)
             {
-
-            Console.WriteLine("\n========== MÉDICOS ==========");
-
-                foreach (Medico medico in medicos)
-                {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("\n========== MÉDICOS ==========");
+                Console.ResetColor();
+                
                     Console.WriteLine();
-                    Console.WriteLine("ID: " + medico.Id);
-                    Console.WriteLine("Nome: " + medico.Nome);
-                    Console.WriteLine("CRM: " + medico.CRM);
+                    Console.WriteLine("ID: " + Medico.Id);
+                    Console.WriteLine("Nome: " + Medico.Nome);
+                    Console.WriteLine("CRM: " + Medico.CRM);
                     Console.WriteLine("Especialidade: " +
-                        medico.Especialidade);
+                        Medico.Especialidade);
                     Console.WriteLine("Telefone: " +
-                        medico.Telefone);
-                }
+                        Medico.Telefone);
+                
 
             }
             // LEITOS
@@ -387,58 +451,93 @@ namespace Internacao_Hospitalar
             if (proximoIdLeito > 1)
             {
 
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\n========== LEITOS ==========");
 
-                foreach (Leito leito in leitos)
-                {
-                    Console.WriteLine();
-                    Console.WriteLine("ID: " + leito.Id);
+                Console.ResetColor();
+
+                Console.WriteLine();
+                    Console.WriteLine("ID: " + Leito.Id);
                     Console.WriteLine("Quarto/Ala: " +
-                        leito.NumeroQuarto);
+                        Leito.NumeroQuarto);
                     Console.WriteLine("Tipo: " +
-                        leito.Tipo);
+                        Leito.Tipo);
                     Console.WriteLine("Está ocupado: " +
-                        leito.EstaOcupado);
-                }
+                        (Leito.EstaOcupado? "Sim":"Não"));
+                
             }
             // INTERNAÇÕES
            
             if (proximoIdInternacao > 1)
             {
 
-            Console.WriteLine("\n========== INTERNAÇÕES ==========");
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("\n========== INTERNAÇÕES ==========");
+                Console.ResetColor();
 
-                foreach (Internacao internacao in internacoes)
-                {
                     Console.WriteLine();
                     Console.WriteLine("ID: " +
-                        internacao.Id);
+                        Internacao.Id);
 
                     Console.WriteLine("Paciente ID: " +
-                        internacao.PacienteId);
+                        Internacao.PacienteId);
 
                     Console.WriteLine("Médico responsável ID: " +
-                        internacao.MedicoResponsavelId);
+                        Internacao.MedicoResponsavelId);
 
                     Console.WriteLine("Leito ID: " +
-                        internacao.LeitoId);
+                        Internacao.LeitoId);
 
                     Console.WriteLine("Data de entrada: " +
-                        internacao.DataEntrada.ToString(
+                        Internacao.DataEntrada.ToString(
                             "dd/MM/yyyy HH:mm"));
 
                     Console.WriteLine("Data de alta: " +
-                        internacao.DataAlta);
+                        Alta.DataAlta?.ToString(
+                        "dd/MM/yyyy HH:mm"));
 
                     Console.WriteLine("Diagnóstico: " +
-                        internacao.DiagnosticoEntrada);
+                            Internacao.DiagnosticoEntrada);
 
                     Console.WriteLine("Status: " +
-                        internacao.Status);
-                }
+                        Internacao.Status);
+                
+                
             }
 
+
+
+            if (proximoIdAlta > 1)
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("\n========== ALTAS ==========");
+                Console.ResetColor ();
+                Console.WriteLine();
+                Console.WriteLine("ID: " +
+                    Alta.Id);
+
+                Console.WriteLine("Internacao ID: " +
+                        Alta.InternacaoId);
+
+                Console.WriteLine("Paciente ID: " +
+                         Alta.PacienteId);
+
+                Console.WriteLine("Médico responsável ID: " +
+                    Alta.MedicoResponsavelId);
+
+                Console.WriteLine("Data de alta: " +
+                        Alta.DataAlta?.ToString(
+                            "dd/MM/yyyy HH:mm"));
+
+                Console.WriteLine("Observações: " +
+                        Alta.ObservacaoAlta);
+
+            }
+
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\n\nPressione Enter para voltar");
+            Console.ResetColor();
             Console.ReadKey();
 
         }

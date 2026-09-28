@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\caio-\\OneDrive\\Documentos\\VisualStudio\\Internacao_Hospitalar\\",
+  "WorkspaceRootPath": "C:\\Users\\caio.hrfoliveira\\Documents\\GitHub\\Logica_Csharp\\Exercicios_24_09_2026\\Internacao_Hospitalar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{114D879C-C872-4405-8E7E-9632E1F7700E}|Internacao_Hospitalar\\Internacao_Hospitalar.csproj|c:\\users\\caio-\\onedrive\\documentos\\visualstudio\\internacao_hospitalar\\internacao_hospitalar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{114D879C-C872-4405-8E7E-9632E1F7700E}|Internacao_Hospitalar\\Internacao_Hospitalar.csproj|c:\\users\\caio.hrfoliveira\\documents\\github\\logica_csharp\\exercicios_24_09_2026\\internacao_hospitalar\\internacao_hospitalar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D879C-C872-4405-8E7E-9632E1F7700E}|Internacao_Hospitalar\\Internacao_Hospitalar.csproj|solutionrelative:internacao_hospitalar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\caio-\\OneDrive\\Documentos\\VisualStudio\\Internacao_Hospitalar\\Internacao_Hospitalar\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\caio.hrfoliveira\\Documents\\GitHub\\Logica_Csharp\\Exercicios_24_09_2026\\Internacao_Hospitalar\\Internacao_Hospitalar\\Program.cs",
               "RelativeDocumentMoniker": "Internacao_Hospitalar\\Program.cs",
-              "ToolTip": "C:\\Users\\caio-\\OneDrive\\Documentos\\VisualStudio\\Internacao_Hospitalar\\Internacao_Hospitalar\\Program.cs",
-              "RelativeToolTip": "Internacao_Hospitalar\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsBAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\caio.hrfoliveira\\Documents\\GitHub\\Logica_Csharp\\Exercicios_24_09_2026\\Internacao_Hospitalar\\Internacao_Hospitalar\\Program.cs*",
+              "RelativeToolTip": "Internacao_Hospitalar\\Program.cs*",
+              "ViewState": "AgIAALkBAAAAAAAAAAAUwNEBAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-27T16:31:46.38Z",
               "EditorCaption": ""
