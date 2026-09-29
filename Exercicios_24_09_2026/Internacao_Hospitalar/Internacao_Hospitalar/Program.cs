@@ -64,13 +64,13 @@ namespace Internacao_Hospitalar
         }
 
         
-
+        // Variaveis globais para definir automaticamente o ID nos cadastros
         static int proximoIdPaciente = 1;
         static int proximoIdMedico = 1;
         static int proximoIdLeito = 1;
         static int proximoIdInternacao = 1;
         static int proximoIdAlta = 1;
-
+        //Contador para a quantidade de pessoas internadas
         static int internados = 0;
 
         static void Main(string[] args)
@@ -237,27 +237,32 @@ namespace Internacao_Hospitalar
             Console.Write("Tipo do leito: ");
             Leito.Tipo = Console.ReadLine();
 
+            //código para inserção manual do estado de Ocupação da sala
             // Console.Write("Está ocupado? (true/false): ");
             // Leito.EstaOcupado = bool.Parse(Console.ReadLine());
 
-            //leito inicia vazio
+            //Inserção automatica do estado de Ocupação da sala
             Leito.EstaOcupado = false;
 
             Console.WriteLine("\nLeito cadastrado com sucesso!");
             Thread.Sleep(2000);
         }
 
+
         static void RegistrarInternacao()
         {
             
-
             Internacao.Id = proximoIdInternacao++;
+
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Clear();
+
             Console.WriteLine("==========================================");
             Console.WriteLine("         REGISTRAR INTERNAÇÃO");
             Console.WriteLine("==========================================");
+
             Console.ResetColor();
+
             Console.WriteLine("Internação ID: "+Internacao.Id);
 
             Console.Write("ID do paciente: ");
@@ -292,13 +297,18 @@ namespace Internacao_Hospitalar
         static void DarAltaHospitalar()
         {
            
-                Alta.Id = proximoIdAlta++;
+            Alta.Id = proximoIdAlta++;
+
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Clear();
-                Console.WriteLine("==========================================");
-                Console.WriteLine("           DAR ALTA HOSPITALAR");
-                Console.WriteLine("==========================================");
+
+            Console.WriteLine("==========================================");
+            Console.WriteLine("           DAR ALTA HOSPITALAR");
+            Console.WriteLine("==========================================");
+
             Console.ResetColor();
+
+            //verifica se há algum paciente internado no momento, para liberar o cadastro de alta
             if (internados > 0)
             {
 
@@ -324,7 +334,7 @@ namespace Internacao_Hospitalar
                 Internacao.Status = "Alta Concluida";
 
                 internados--;
-                // libera o leito
+                // Libera o leito anteriormente ocupado
                 Leito.EstaOcupado = false;
 
                 Console.WriteLine();
@@ -347,11 +357,11 @@ namespace Internacao_Hospitalar
 
         static void ListarPacientesInternados()
         {
-                Console.Clear();
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("==========================================");
-                Console.WriteLine("       PACIENTES INTERNADOS");
-                Console.WriteLine("==========================================");
+            Console.WriteLine("       PACIENTES INTERNADOS");
+            Console.WriteLine("==========================================");
             Console.ResetColor();
 
             if (internados >0)
@@ -400,6 +410,7 @@ namespace Internacao_Hospitalar
             Console.WriteLine("          RELATÓRIO GERAL DO HOSPITAL");
             Console.WriteLine("==================================================");
             Console.ResetColor();
+
             // PACIENTES
           
 
@@ -505,7 +516,7 @@ namespace Internacao_Hospitalar
                 
             }
 
-
+            //ALTAS
 
             if (proximoIdAlta > 1)
             {
