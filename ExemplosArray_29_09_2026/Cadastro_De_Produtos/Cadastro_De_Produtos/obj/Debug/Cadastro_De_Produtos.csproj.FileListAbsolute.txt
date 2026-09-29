@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Cadastro_De_Produtos\Cadastro_De_Produtos\bin\Debug\Cadastro_De_Produtos.exe.config
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Cadastro_De_Produtos\Cadastro_De_Produtos\bin\Debug\Cadastro_De_Produtos.exe
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Cadastro_De_Produtos\Cadastro_De_Produtos\bin\Debug\Cadastro_De_Produtos.pdb
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Cadastro_De_Produtos\Cadastro_De_Produtos\obj\Debug\Cadastro_De_Produtos.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Cadastro_De_Produtos\Cadastro_De_Produtos\obj\Debug\Cadastro_De_Produtos.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Cadastro_De_Produtos\Cadastro_De_Produtos\obj\Debug\Cadastro_De_Produtos.exe
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Cadastro_De_Produtos\Cadastro_De_Produtos\obj\Debug\Cadastro_De_Produtos.pdb

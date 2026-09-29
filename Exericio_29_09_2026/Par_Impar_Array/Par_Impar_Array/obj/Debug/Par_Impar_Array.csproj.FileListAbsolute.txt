@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Par_Impar_Array\Par_Impar_Array\bin\Debug\Par_Impar_Array.exe.config
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Par_Impar_Array\Par_Impar_Array\bin\Debug\Par_Impar_Array.exe
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Par_Impar_Array\Par_Impar_Array\bin\Debug\Par_Impar_Array.pdb
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Par_Impar_Array\Par_Impar_Array\obj\Debug\Par_Impar_Array.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Par_Impar_Array\Par_Impar_Array\obj\Debug\Par_Impar_Array.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Par_Impar_Array\Par_Impar_Array\obj\Debug\Par_Impar_Array.exe
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Par_Impar_Array\Par_Impar_Array\obj\Debug\Par_Impar_Array.pdb
