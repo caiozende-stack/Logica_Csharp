@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Historico_Compras\Historico_Compras\bin\Debug\Historico_Compras.exe.config
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Historico_Compras\Historico_Compras\bin\Debug\Historico_Compras.exe
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Historico_Compras\Historico_Compras\bin\Debug\Historico_Compras.pdb
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Historico_Compras\Historico_Compras\obj\Debug\Historico_Compras.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Historico_Compras\Historico_Compras\obj\Debug\Historico_Compras.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Historico_Compras\Historico_Compras\obj\Debug\Historico_Compras.exe
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Historico_Compras\Historico_Compras\obj\Debug\Historico_Compras.pdb

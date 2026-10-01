@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Temperatura_Diaria\Temperatura_Diaria\bin\Debug\Temperatura_Diaria.exe.config
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Temperatura_Diaria\Temperatura_Diaria\bin\Debug\Temperatura_Diaria.exe
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Temperatura_Diaria\Temperatura_Diaria\bin\Debug\Temperatura_Diaria.pdb
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Temperatura_Diaria\Temperatura_Diaria\obj\Debug\Temperatura_Diaria.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Temperatura_Diaria\Temperatura_Diaria\obj\Debug\Temperatura_Diaria.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Temperatura_Diaria\Temperatura_Diaria\obj\Debug\Temperatura_Diaria.exe
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Temperatura_Diaria\Temperatura_Diaria\obj\Debug\Temperatura_Diaria.pdb

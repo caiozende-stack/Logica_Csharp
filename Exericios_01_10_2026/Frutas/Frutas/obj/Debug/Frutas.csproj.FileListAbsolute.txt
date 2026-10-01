@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Frutas\Frutas\bin\Debug\Frutas.exe.config
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Frutas\Frutas\bin\Debug\Frutas.exe
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Frutas\Frutas\bin\Debug\Frutas.pdb
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Frutas\Frutas\obj\Debug\Frutas.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Frutas\Frutas\obj\Debug\Frutas.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Frutas\Frutas\obj\Debug\Frutas.exe
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\Frutas\Frutas\obj\Debug\Frutas.pdb

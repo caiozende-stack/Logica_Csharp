@@ -1,0 +1,7 @@
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\FrutasMatrix_Exemplo\FrutasMatrix_Exemplo\bin\Debug\FrutasMatrix_Exemplo.exe.config
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\FrutasMatrix_Exemplo\FrutasMatrix_Exemplo\bin\Debug\FrutasMatrix_Exemplo.exe
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\FrutasMatrix_Exemplo\FrutasMatrix_Exemplo\bin\Debug\FrutasMatrix_Exemplo.pdb
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\FrutasMatrix_Exemplo\FrutasMatrix_Exemplo\obj\Debug\FrutasMatrix_Exemplo.csproj.AssemblyReference.cache
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\FrutasMatrix_Exemplo\FrutasMatrix_Exemplo\obj\Debug\FrutasMatrix_Exemplo.csproj.CoreCompileInputs.cache
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\FrutasMatrix_Exemplo\FrutasMatrix_Exemplo\obj\Debug\FrutasMatrix_Exemplo.exe
+C:\Users\caio.hrfoliveira\Documents\VIsual Studio\FrutasMatrix_Exemplo\FrutasMatrix_Exemplo\obj\Debug\FrutasMatrix_Exemplo.pdb
