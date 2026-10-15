@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    background-color:rgb(88, 177, 180); /* muda a cor do fundo*/
+}
+h1{
+    font-size: 45px; /* muda o tamanho da fonte*/
+    text-align:center;/*alinha o texto na pagina*/
+}
+h2{
+    font-size: 25px ;
+    padding-bottom: 25px;    
+}
+
+h1,h2{
+    color: blueviolet; /* muda a cor do texto*/
+    font-family: 'Courier New', Courier, monospace;/*muda o time de fonte*/
+}
+
+img{
+    display: flex;
+    margin: auto;
+    width: 250px;
+}
+
+p{
+    color: aliceblue;
+    padding-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+li{
+    color:brown;
+    padding-bottom: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
