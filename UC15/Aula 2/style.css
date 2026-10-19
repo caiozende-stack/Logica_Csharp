@@ -1,0 +1,38 @@
+body{
+
+    background-color: aquamarine;
+    background-image: url('./img/asta.jpg');
+    margin: 0;
+    background-size: 1920px auto;
+    background-repeat: no-repeat;
+  
+}
+
+.bloco1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: blue;
+    background-image: url('./img/imagem01.webp');
+    background-size: cover;
+    margin-top: 200px;
+    margin-left:300px;
+    height:400px;
+    width: 400px;
+
+}
+.bloco2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-image: url('./img/luffy.webp');
+    background-size: cover;
+    background-color: blueviolet;
+    margin-left: 300px;
+    height: 400px;
+    width: 400px;
+}
