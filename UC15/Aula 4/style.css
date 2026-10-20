@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+#imagens{
+    
+    display:grid; /* divide o site em grades(colunas e linhas) */
+    text-align: center; /* alinha os conteudos no centro de cada div*/
+    grid-template-columns: repeat(3,1fr); /* divide a tela em 3 colunas de tamanhos iguais 1/3 da tela cada */
+    column-gap: 5%; /* define a distancia entre cada coluna*/
+}
+
+.f1{
+background-color: blue;
+}
+
+.f2{
+background-color: aqua;
+}
+
+.f3{
+background-color: cadetblue;
+}
