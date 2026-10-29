@@ -1,0 +1,30 @@
+ * {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+table{
+    width: 100%;
+    max-width: 1000px;
+    text-align: left;
+    border-collapse: collapse;
+    border-bottom: 3px outset rgba(177, 176, 176, 0.253);
+
+}
+th{
+color: white;
+background: #6865fc;
+background: linear-gradient(90deg,rgba(104, 101, 252, 1) 0%, rgba(174, 0, 255, 1) 100%);
+}
+
+th,td{
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #F5F3FF;
+}

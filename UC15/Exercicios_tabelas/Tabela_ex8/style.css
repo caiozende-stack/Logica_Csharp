@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #FAEBD7;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+}
+th{
+    color:#64748B;
+}
+
+td {
+    background-color: white;
+}
+
+/* Arredonda somente as extremidades da linha */
+tbody td:first-child {
+    border-radius: 20px 0 0 20px;
+}
+
+tbody td:last-child {
+    border-radius: 0 20px 20px 0;
+}
+
+/* Separa as linhas verticalmente */
+tbody tr {
+    border-bottom: 6px solid #FAEBD7;
+}

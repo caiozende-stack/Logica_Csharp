@@ -1,0 +1,31 @@
+ * {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+table{
+    width: 100%;
+    max-width: 1000px;
+    text-align: left;
+    border-collapse: collapse;
+}
+thead{
+    background-color: rgb(34, 99, 238);
+    color: aliceblue;
+}
+
+th,td{
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(223, 223, 223);
+}
