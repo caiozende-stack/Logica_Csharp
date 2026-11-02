@@ -1,3 +1,6 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+ 
+ 
  * {
     box-sizing: border-box;
     margin:0;
@@ -10,12 +13,75 @@ body{
 
 table{
     width: 100%;
-    max-width: 1000px;
-     border-collapse: collapse;
+    
+    border-collapse: collapse;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
+      border-radius: 12px 12px 0 0;
+       overflow: hidden;
+    
+}
+
+thead{
+    background-color:#0f172a;
+    color: aliceblue;
 }
 
 th,td{
-    padding: 10px;
+    padding: 20px;
+}
+
+td{
+    color:#334155;
+}
+ 
+.total{
+    border-top: 1px solid black;
+    border-bottom:1px solid #0f172a;
+    font-weight: bold;
+}
+
+.positivo{
+    color: #16a34a;
+
+}
+
+.atingido{
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #dcfce7;
+    color: #29734b;
+    padding: 5px 10px 5px 10px;
+    border-radius:5px ;
+}
+.N_atingido{
+    
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #fee2e2;
+    color: #991b1b;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px ;
+}
+
+thead tr:first-child th:nth-child(3){
+    border-bottom: 2px solid #334155;
+}
+
+tbody tr:nth-child(2){
+    border-bottom: 1px solid #e2e8f0;
+}
+
+
+tbody tr:nth-child(4) td:first-child, tbody tr:nth-child(3){
+    border-bottom: 2px solid #cbd5e1;
+}
+
+tbody tr:first-child, tbody tr:nth-child(4){
+    font-weight: bold;
+    border-bottom: 2px solid #cbd5e1;
+}
+
+tbody tr:nth-child(3){
+    border-bottom: 2px solid #cbd5e1;
 }
