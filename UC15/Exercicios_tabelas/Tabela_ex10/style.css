@@ -43,7 +43,9 @@ td{
 
 .positivo{
     color: #16a34a;
-
+}
+.negativo{
+    color:#dc2626;
 }
 
 .atingido{
