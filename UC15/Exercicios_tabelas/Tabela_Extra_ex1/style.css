@@ -18,7 +18,7 @@ table{
     text-align: left;
     border-radius: 12px 12px 12px 12px;
     overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
 }
 
 th{
