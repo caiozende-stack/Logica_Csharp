@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+.logo{
+    width: 150px;
+}
+
+.categoria{
+    display: flex;
+    align-items: center;
+    justify-content: center; /* space-between serve para distribuir os itens uniformemente, colando o primeiro item na borda inicial e o último na borda final do contêiner, e dividindo o espaço restante de forma igual entre os itens do meio */    
+}
+
+.menu-principal ul{
+    list-style: none; /*Remove as marcações da lista*/
+}
+
+.menu-principal ul li{
+    display: inline-block;/*• Fica lado a lado (como um inline): O elemento não quebra a linha automaticamente e se posiciona ao lado de outros elementos que também estão em linha. Aceita medidas e espaçamentos (como um block): Diferente do inline comum, você consegue definir width (largura), height (altura), margin, padding e bordas com precisão.*/
+}
+
+.menu-principal ul li a{
+    color: rgb(255, 238, 216); /*Cor do texto*/
+    text-decoration: none; /*tira as decorações de hiperlink padrão*/
+    text-transform: uppercase; /*Coloca todas as letras em maiusculo*/
+    padding: 5px 20px; 
+    border: 1px solid transparent; /* Cria uma borda transparente*/
+    font-size: 20px;
+}
+
+.menu-principal ul li a:hover{ /*Transição quando para o mouse sobre o item*/
+     transition: 0.60s ease; /*A propriedade transition: 0.06s ease; no CSS serve para suavizar a mudança de estilo de um elemento quando ele passa de um estado para outro */
+    background-color: black;
+    color:aliceblue;
+    padding: 10px 35px;
+    border-radius: 20px;
+}
+
+#pagina-home{
+    height: 150px;
+    background-image: linear-gradient( rgba(221, 231, 221, 0.253),rgba(167, 164, 164, 0.247) ) , url("../img/banner2.jpg") ; 
+    background-size: cover;
+    position: center;
+}
