@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;   
 }
+body{
+    background-color: black;
+}
 
 .logo{
-    width: 150px;
+    width: 120px;
 }
 
 .categoria{
@@ -12,6 +15,7 @@
     align-items: center;
     justify-content: center; /* space-between serve para distribuir os itens uniformemente, colando o primeiro item na borda inicial e o último na borda final do contêiner, e dividindo o espaço restante de forma igual entre os itens do meio */    
 }
+
 
 .menu-principal ul{
     list-style: none; /*Remove as marcações da lista*/
@@ -39,8 +43,115 @@
 }
 
 #pagina-home{
-    height: 150px;
+    height: 120px;
     background-image: linear-gradient( rgba(221, 231, 221, 0.253),rgba(167, 164, 164, 0.247) ) , url("../img/banner2.jpg") ; 
     background-size: cover;
     position: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+}
+
+/* primeira parte da Home: Area do anuncio principal do filme*/
+.principal{
+    
+    display: grid;
+    grid-template-columns: 800px 400px;
+    column-gap: 50px;
+    text-align: center;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.filme_destaque{
+    background-color: aqua;
+   
+     background-image: 
+        linear-gradient(to bottom, transparent 50%, black 100%),
+        url("../img/home/Spider_man_destaque.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:end;
+    justify-content:left;
+    
+}
+
+.capa_filme{
+    width: 150px;
+    margin: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.texto_filme_destaque{
+    color:aliceblue;
+    margin: 20px;
+}
+.titulo_filme_destaque{
+    font-size: 30px;
+}
+
+/*Lista de filmes ao lado do titulo princiapl */
+
+.lista_filmes{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+   background: linear-gradient(0deg,rgba(0, 0, 0, 1) 54%, rgba(31, 31, 31, 1) 100%);
+   border-radius: 5px;
+}
+
+.filme_lista{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.filme_lista img{
+    width: 100px;
+}
+.info_filmes{
+    color: white;
+    margin-left: 20px;
+    text-align: left;
+}
+.info_filmes h2{
+    margin-bottom: 10px;
+}
+
+
+
+/*Formatação da parte dos atores em Destaque*/
+.Area_atores{
+    margin-left: 200px;
+}
+.atores_titulo h2{
+    margin-left: 10px ;
+    color: white;
+}
+.lista_atores{
+    display:flex;
+    flex-direction: row;
+}
+
+.atores_item{
+    margin: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.atores_item img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.atores_item p{
+    padding: 10px;
+    text-align: center;
+    color: white;
 }
