@@ -50,7 +50,20 @@ body{
     margin-left: 200px;
     margin-right: 200px;
     border-radius: 20px;
+    max-width: 1450px;
 }
+
+
+
+#corpo{
+    margin-left:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1450px;
+   
+}
+
 
 /* primeira parte da Home: Area do anuncio principal do filme*/
 .principal{
@@ -60,7 +73,7 @@ body{
     column-gap: 50px;
     text-align: center;
     margin: 100px;
-    margin-left: 200px;
+    
     margin-right: 200px;
 }
 .filme_destaque{
@@ -87,10 +100,12 @@ body{
 .texto_filme_destaque{
     color:aliceblue;
     margin: 20px;
+    text-align: left;
 }
 .titulo_filme_destaque{
     font-size: 30px;
 }
+
 
 /*Lista de filmes ao lado do titulo princiapl */
 
@@ -118,15 +133,16 @@ body{
 .info_filmes h2{
     margin-bottom: 10px;
 }
-
+.info_filmes p{
+    color:#b3b3b3;
+}
 
 
 /*Formatação da parte dos atores em Destaque*/
-.Area_atores{
-    margin-left: 200px;
-}
-.atores_titulo h2{
-    margin-left: 10px ;
+
+.atores_titulo{
+    font-size: 20px;
+    margin-left: 10px;
     color: white;
 }
 .lista_atores{
@@ -140,7 +156,6 @@ body{
     flex-direction: column;
 }
 
-
 .atores_item img{
     border-radius: 50%;
     width: 200px;
@@ -151,7 +166,91 @@ body{
 }
 
 .atores_item p{
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     color: white;
+}
+
+/*Formatação da parte dos filmes novos*/
+
+.Area_lancamentos{
+   width: 100%;
+   margin-top: 20px;
+}
+
+.movie_titulo{
+color: aliceblue;
+font-size: 20px;
+display: flex;
+text-align: left;
+}
+
+.lista_movie{
+    display:flex;
+    flex-direction: row;
+}
+
+.filmes_item{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    
+}
+.filmes_item img{
+    width:200px;
+    height:300px;
+    border-radius: 5px;
+    object-position: center;
+}
+.filmes_item p{
+    padding: 20px 10px 0px 10px;
+    color: aliceblue;
+}
+
+/*Formatação da parte das entrevistas*/
+
+.Area_entrevista{
+   width: 100%;
+   margin-top: 20px;
+}
+
+.entrevista_titulo{
+color: aliceblue;
+font-size:20px;
+display: flex;
+text-align: left;
+}
+
+.lista_entrevista{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.entrevista_item{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: left;
+    flex-wrap: wrap;
+}
+.entrevista_item img{
+    width:400px;
+    height:200px;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    
+    
+}
+.entrevista_item p{
+    max-width: 400px;
+    font-size: 20px;
+    padding: 20px 10px 0px 10px;
+    color: aliceblue;
+}
+
+.filmes_item .trailer,.entrevista_item p:last-child{
+    color: #b3b3b3;
 }
