@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    background-color: black;
+    
+}
+
+.logo{
+    width: 120px;
+}
+
+.categoria{
+    display: flex;
+    align-items: center;
+    justify-content: center; /* space-between serve para distribuir os itens uniformemente, colando o primeiro item na borda inicial e o último na borda final do contêiner, e dividindo o espaço restante de forma igual entre os itens do meio */    
+}
+
+
+.menu-principal ul{
+    list-style: none; /*Remove as marcações da lista*/
+}
+
+.menu-principal ul li{
+    display: inline-block;/*• Fica lado a lado (como um inline): O elemento não quebra a linha automaticamente e se posiciona ao lado de outros elementos que também estão em linha. Aceita medidas e espaçamentos (como um block): Diferente do inline comum, você consegue definir width (largura), height (altura), margin, padding e bordas com precisão.*/
+}
+
+.menu-principal ul li a{
+    color: rgb(255, 238, 216); /*Cor do texto*/
+    text-decoration: none; /*tira as decorações de hiperlink padrão*/
+    text-transform: uppercase; /*Coloca todas as letras em maiusculo*/
+    padding: 5px 20px; 
+    border: 1px solid transparent; /* Cria uma borda transparente*/
+    font-size: 20px;
+}
+
+.menu-principal ul li a:hover{ /*Transição quando para o mouse sobre o item*/
+     transition: 0.60s ease; /*A propriedade transition: 0.06s ease; no CSS serve para suavizar a mudança de estilo de um elemento quando ele passa de um estado para outro */
+    background-color: black;
+    color:aliceblue;
+    padding: 10px 35px;
+    border-radius: 20px;
+}
+
+#pagina-home{
+    height: 120px;
+    background-image: linear-gradient( rgba(221, 231, 221, 0.253),rgba(167, 164, 164, 0.247) ) , url("../img/banner2.jpg") ; 
+    background-size: cover;
+    position: center;
+    margin-left: 200px;
+    border-radius: 20px;
+    max-width: 1450px;
+}
+
+#corpo{
+    margin-left:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1450px;
+   
+}
+
+
+/*Area da formatação das informações do filme*/
+
+.informacao_filme{
+    margin: 30px;
+    width: 1400px;
+    text-align: center;
+}
+.informacao_filme h1{
+    color: aliceblue;
+    font-size: 60px;
+}
+.banner_filme img{
+    margin: 40px;
+    width: 1200px;
+}
+
+
+/*Area da sinopse*/
+.sinopse{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+
+
+.sinopse h2{
+    color: aliceblue;
+    font-size: 40px;
+}
+.sinopse p{
+    color: aliceblue;
+    margin: 20px;
+    font-size: 25px;
+    text-align: justify;
+    
+}
+
+
+
+/*Formatação da area de filmes*/
+.filmes{
+
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+
+}
+
+.filmes h2{
+    color: aliceblue;
+    font-size: 40px;
+    margin: 20px 0px 20px 0px;
+}
+
+.lista_filmes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filme_item{
+    margin: 20px;
+}
+
+.filme_item img{
+    width: 430px;
+    height: 600px;
+}
+
+
+/*Area do Elenco principal*/
+
+.Area_atores{
+    width: 100%;
+}
+
+.atores_titulo{
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+}
+.lista_atores{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.atores_item{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 220px;
+   
+}
+
+.atores_item img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.atores_item p{
+    padding: 20px 0px 5px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.atores_item p:last-child{
+    padding: 5px;
+    color: #b3b3b3;
+}
+
+
+
+/*Area de adicionais*/
+.titulo_JP{
+    text-align: left;
+    margin: 20px;
+    color: white;
+    font-size: 35px;
+}
+
+
+.texto-gradiente_HA{
+        background: linear-gradient(270deg,rgba(255, 0, 0, 1) 0%, rgba(4, 24, 179, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-gradiente_JP{
+        background: linear-gradient(270deg,rgba(38, 38, 38, 1) 26%, rgba(255, 5, 5, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-gradiente_EF{
+        background: linear-gradient(270deg,rgba(82, 82, 82, 1) 15%, rgba(32, 28, 101, 1) 45%, rgba(18, 5, 255, 1) 100%);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-gradiente_SDA{
+    background: linear-gradient(270deg,rgba(94, 94, 94, 1) 0%, rgba(179, 126, 4, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
