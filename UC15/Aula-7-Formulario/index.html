@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="cabecalho">
+      <h1>Formulário</h1>
+      <h2>Preencha os campos abaixo</h2>
+    </div>
+
+<div class="formulario">
+        <form action="" method="post">
+          <!-- method POST/GET-->
+    
+          <div class="campo">
+            <label for="nome">Nome: </label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Digite o nome Completo"
+              size="40"
+              required
+            />
+          </div>
+    
+          <div class="campo">
+            <label for="cidade">Cidade:</label>
+            <input
+              type="text"
+              id="cidade"
+              name="cidade"
+              placeholder=" Digite a cidade"
+            />
+          </div>
+    
+          <div class="campo">
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Digite o email principal" size="40" required>
+          </div>
+          <div class="campo">
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+          </div>
+          <div class="campo">
+            <label for="data">Data de Nascimento</label>
+            <input type="date" name="data" id="data" placeholder="Digite a data de Nascimento do usuario" size="10">
+          </div>
+          <div class="campo">
+            <label for="telefone">Telefone: </label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(##) #####-####" size="10" required>
+          </div>
+          <div class="campo">
+            <label for="estado">Estado: </label>
+            <select name="estado" id="estado" required>
+                <option> Rio de Janeiro</option>
+                <option> Sâo Paulo</option>
+                <option> Minas Gerais</option>
+                <option> Ceará</option>
+            </select>
+          </div>
+    
+          <div class="campo">
+            <label class="titulo-campo">Turno de Preferencia :</label>
+            <label class="opcao" >
+                <input type="radio" name="turno" value="manha"> Manhã
+            </label>
+            <label class="opcao">
+                <input type="radio" name="turno" value="tarde"> Tarde
+            </label>
+            <label class="opcao">
+                <input type="radio" name="turno" value="noite"> Noite
+            </label>
+          </div>
+    
+          <div class="campo">
+            <label class="titulo-campo">Áreas de interesse :</label>
+            <label class="opcao">
+                <input type="checkbox" name="interesses" value="tecnologia"> Tecnologia
+            </label>
+            <label class="opcao">
+                <input type="checkbox" name="interesses" value="design"> Design
+            </label>
+            <label class="opcao">
+                <input type="checkbox" name="interesses" value="marketing"> Marketing
+            </label>
+          </div>
+    
+          <div class="campo">
+            <label for="obs">Observações</label>
+            <textarea name="obs" id="obs" rows="4" placeholder="escreva aqui seu comentario...."></textarea>
+          </div>
+
+          <div class="campo">
+            <label for="imagem"> Escolha a foto do Usuário</label>
+            <input type="file" name="imagem" id="imagem" accept="image/png, image/jpeg" required>
+          </div>
+
+    
+          <div class="botao">
+            <button class="button" type="submit">Enviar</button>
+          </div>
+        </form>
+    
+</div>
+
+</body>
+</html>
