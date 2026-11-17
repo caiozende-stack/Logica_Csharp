@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+body{
+    background-color: #BA9B82;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM Sans", sans-serif;
+}
+
+.formulario{
+    background-color: #FFFFFF;
+    max-width: 900px;
+    border-radius: 15px;
+    
+}
+
+.cabecalho{
+    margin-bottom: 45px;
+}
+
+
+h1{
+    margin-bottom: 10px;
+   margin-top: 0;
+   font-size: 45px;
+    color: #010102;
+    padding:50px 50px 0px 50px;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 20px;
+    color: #293d64;
+    padding:0px 50px 0px 50px;
+}
+
+form{
+    border-top: 1px solid #D9D8E3;
+    
+}
+.campo {
+    padding: 30px 50px 10px 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name {
+    display: flex;
+    gap: 10px;
+}
+
+.grupo-nome{
+    flex: 1 1 0;
+}
+
+.grupo-nome input {
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+   
+}
+
+.grupo-nome label{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+input,textarea{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #BEC2CE;
+}
+
+
+h3{
+    border-top:1px solid #EEEFF3;
+    border-bottom:1px solid #EEEFF3;
+    margin:30px 50px 30px 50px;
+    padding: 50px 0px 50px 0px;
+    color: #314979;
+}
+
+select{
+   border: 1px solid #BEC2CE;
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.botao{
+    border-top: 1px solid #D9D8E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+button{
+    padding: 20px 60px 20px 60px;
+    background-color: #18BD5B;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 18px;
+    color: #314979;
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: #314979b6;
+    opacity: 1;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+select option:first-child{
+    color: #314979;
+}
+select {
+    color: #314979;
+    font-size: 15px;
+    padding-left: 10px;
+}

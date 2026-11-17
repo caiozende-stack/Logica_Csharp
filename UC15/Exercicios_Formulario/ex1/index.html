@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="formulario">
+      <div class="cabecalho">
+        <h1>Reserve sua Mesa</h1>
+        <h2>
+          Por favor, preencha o formulário abaixo com atenção para que possamos
+          atende-lo da melhor forma possível.Seja bem-vendo!
+        </h2>
+      </div>
+
+      <form action="" method="post">
+
+        <div class="campo">
+          <label>Nome Completo</label>
+          <div class="name">
+            <div class="grupo-nome">
+              <input type="text" name="nome" id="nome" />
+              <label for="nome">Nome</label>
+            </div>
+            <div class="grupo-nome">
+              <input type="text" name="sobrenome" id="sobrenome" />
+              <label for="sobrenome">Sobrenome</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="campo">
+          <label for="email">E-mail</label>
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="ex: myname@example.com"
+            />
+          </div>
+        </div>
+
+        <div class="campo">
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone">
+        </div>
+
+        <div class="campo">
+            <label for="num-pessoas">Numero de pessoas</label>
+            <input type="number" name="num-pessoas" id="num-pessoas">
+        </div>
+
+        <div class="reserva">
+            <h3>Reserva</h3>
+        </div>
+
+        <div class="campo">
+            <label for="tipo_reserva">Tipo Reserva</label>
+            <select name="tipo_reserva" id="tipo_reserva" >
+                <option value="" disabled selected>Selecione um tipo</option>
+                <option value="mesa_padrao">Mesa Padrao</option>
+                <option value="comemoracao">Comemoração</option>
+                <option value="evento_privado">Evento privado</option>
+                <option value="evento_publico">Evento Publico</option>
+                <option value="outro">Outro</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label for="outro">Se "Outro" acima,especifique</label>
+            <input type="text" name="outro" id="outro">
+        </div>
+
+        <div class="campo">
+            <label for="especial">Pedido Especiais</label>
+            <textarea name="especial" id="especial"></textarea>
+        </div>
+
+        <div class="botao">
+            <button class="button" type="submit">Enviar</button>
+        </div>
+
+
+      </form>
+    </div>
+  </body>
+</html>
