@@ -15,7 +15,7 @@
         </div>
 
         <div class="campo">
-          <label for="email">E-mail: </label>
+          <label for="email"  >E-mail: </label>
           <input
             type="email"
             name="email"
@@ -26,7 +26,7 @@
         </div>
 
         <div class="campo">
-          <label for="endereco">Endereço: </label>
+          <label for="endereco" >Endereço: </label>
           <input
             type="text"
             id="endereco"
@@ -34,7 +34,7 @@
           />
         </div>
         <div class="campo">
-          <label for="bairro">Bairro:</label>
+          <label for="bairro"  >Bairro:</label>
           <input
             type="text"
             id="bairro"
@@ -42,6 +42,7 @@
             
           />
         </div>
+
         <div class="campo">
           <label for="cidade">Cidade:</label>
           <input
@@ -104,7 +105,7 @@
                     <input type="checkbox" name="servicos" value="reparo"> Reparo em estrutura dos bancos e ferragens
                 </label>
                   <label class="opcao">
-                    <input type="checkbox" name="servicos" value="manopla"> Hidratação e higienização dos bancos
+                    <input type="checkbox" name="servicos" value="hidratacao"> Hidratação e higienização dos bancos
                 </label>
             </div>
           </div>
@@ -127,12 +128,67 @@
             </div>
           </div>
 
-    
+    <div class="campo">
+      <label for="tipo_reserva">Marca fabricante</label>
+            <select name="tipo_reserva" id="tipo_reserva" >
+                <option value="" disabled selected>Selecione uma marca</option>
+                <option value="toyota">Toyota</option>
+                <option value="fiat">Fiat</option>
+                <option value="renault">Renault</option>
+                <option value="Citroen">Citroen</option>
+                <option value="outro">Outro</option>
+            </select>
+    </div>
 
 
+    <div class="campo">
+          <label for="modelo">Nome modelo:</label>
+          <input
+            type="text"
+            id="modelo"
+            name="modelo"
+          />
+        </div>
+
+        <div class="campo">
+          <label for="fabricacao">Ano de Fabricação:</label>
+          <input
+            type="number"
+            id="fabricacao"
+            name="fabricacao"
+          />
+        </div>
 
 
+         <div class="campo">
+            <label class="titulo-campo">Especifique a forma de pagamento :</label>
 
+            <div class="lista_opcao">
+              <label class="opcao" >
+                  <input type="radio" name="pagamento" value="avista"> Á vista
+              </label>
+              <label class="opcao">
+                  <input type="radio" name="pagamento" value="deposito"> Deposito em conta corrente
+              </label>
+              <label class="opcao">
+                  <input type="radio" name="pagamento" value="transferencia"> Doc ou transferencia bancaria
+              </label>
+              <label class="opcao">
+                  <input type="radio" name="pagamento" value="parcelado"> Parcelado até 4x no cartão de crédito
+              </label>
+              
+            </div>
+          </div>
+
+
+          <div class="campo">
+            <label for="descricao" class="titulo-campo">Diga-nos com maior riqueza de detalhes o serviço de interesse:</label>
+            <textarea name="descricao" id="descricao"></textarea>
+          </div>
+
+          <div class="campo">
+            <button>Enviar formulário</button>
+          </div>
 
 
       </form>
