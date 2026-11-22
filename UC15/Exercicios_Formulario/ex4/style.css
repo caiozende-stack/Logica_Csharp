@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    background-image: url('./fundo.webp');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    
+
+}
+
+
+.formulario{
+     display: flex;
+     flex-direction: column;
+     width: 800px;
+     margin-top: 90px;
+     background-color: rgba(0, 0, 0, 0.151);
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     align-items: center;
+}
+
+
+
+
+.cabecalho {
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    isolation: isolate;
+    min-width: 795px;
+    max-width: 750px;
+    padding: 10px;
+    background-color: rgb(0, 0, 253);
+    box-shadow: 0 0 15px 4px #ab4848;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+
+.cabecalho h1 {
+    color: white;
+     margin:0;
+    padding: 0;
+    font-size: 27px;
+}
+
+
+
+form{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+
+.campo{
+    display: grid;
+    grid-template-columns: 150px 3fr;
+    color: white;
+    padding: 30px 30px 20px 30px;
+    
+}
+
+.campos_nome{
+    display: flex;
+    gap: 10px;
+}
+
+
+.grupo-nome{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grupo-nome input{
+    width: 200px;
+}
+
+#empresa,#email,select{
+    width: 410px;
+}
+.espaco{
+    padding-left: 20px;
+}
+input,select{
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+#ddd{
+   width: 100px; 
+}
+#numero{
+    width: 270px;
+}
+ .telefone{
+    margin-left: 30px;
+}
+
+form .campo:nth-child(4){
+  padding: 30px 30px 0px 30px;
+}
+form .campo:nth-child(5){
+  padding: 10px 30px 0px 30px;
+}
+
+.titulo_extendido{
+font-size:16px;
+grid-column-start:1 ;
+grid-column-end:3 ;
+margin-bottom:10px ;
+}
+
+.opcao{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.campo .opcao:last-child{
+    margin-left:60px;
+}
+.campo:last-child{
+ padding: 0px 30px 30px 30px;
+}
+
+button{
+    height: 40px;
+   width: 200px;
+   border-radius:10px ;
+   color: white;
+   background-color: #3aaf9f;
+   border: 1px solid #246268;
+}
+
+.grupo-nome label{
+    font-size: 15px;
+    color: #c7c9c6;
+}

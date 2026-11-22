@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="formulario">
+        <div class="cabecalho">
+            <h1>Formulário de Cadastro</h1>
+        </div>
+
+        <form action=""method="post">
+
+        <div class="campo">
+          <label class="titulo">Nome e Sobrenome </label>
+          <div class="campos_nome espaco" >
+            <div class="grupo-nome">
+              <input type="text" name="nome" id="nome"  required />
+              <label for="nome">Nome</label>
+            </div>
+            <div class="grupo-nome">
+              <input type="text" name="sobrenome" id="sobrenome"  required />
+              <label for="sobrenome">Sobrenome</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="campo">
+        <label for="empresa" class="titulo"> Empresa</label>
+          <div class="espaco">
+            <input
+              type="empresa"
+              name="empresa"
+              id="empresa"
+             
+            />
+          </div>
+        </div>
+
+         <div class="campo">
+        <label for="email" class="titulo">Email</label>
+          <div class="espaco">
+            <input
+              type="email"
+              name="email"
+              id="email"
+             
+              
+            />
+          </div>
+        </div>
+
+
+          <div class="campo">
+          <label class="titulo">Telefone </label>
+          <div class="campos_nome espaco" >
+            <div class="grupo-nome">
+              <input type="text" name="ddd" id="ddd"  required />
+              <label for="ddd">DDD</label>
+            </div>
+
+            <div class="grupo-nome telefone" >
+              <input type="text" name="numero" id="numero"  required />
+              <label for="numero">Telefone</label>
+            </div>
+          </div>
+        </div>
+
+         <div class="campo">
+        <label for="empresa" class="titulo">Sexo</label>
+          <div class="espaco">
+           <select name="sexo" id="sexo" class="caixa_selecao">
+             <option value="" disabled selected>--Selecione a Opção</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+           </select>
+          </div>
+        </div>
+
+          <div class="campo">
+          <label class="titulo titulo_extendido">Voce é iniciante? </label>
+          <div class="campos_nome titulo_extendido">
+            <label class="opcao">
+                <input type="radio" name="iniciante" value="sim"> Sim
+            </label>
+            <label class="opcao">
+                <input type="radio" name="iniciante" value="nao"> Não
+            </label>
+          </div>
+        </div>
+
+         <div class="campo">
+            <button>Enviar</button>
+        </div>
+        </form>
+    </div>
+
+
+
+
+
+
+</body>
+</html>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario 3</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
   </head>
   <body>
     <div class="formulario">
@@ -42,7 +43,7 @@
               type="email"
               name="email"
               id="email"
-              placeholder="ex: myname@example.com"
+              placeholder="ex: contato@upmartinopolis.com"
               size="50"
             />
           </div>
@@ -69,7 +70,7 @@
               type="email"
               name="email_destinatario"
               id="email_destinatario"
-              placeholder="ex: myname@example.com"
+              placeholder="ex: contato@upmartinopolis.com"
               size="50"
             />
           </div>
@@ -79,49 +80,115 @@
             <label class="titulo">Endereço do destinatário:</label>
             <div class="campos_endereco">
             <div class="grupo-nome" >
-              <input type="text" name="nome" id="nome"   required  class="endereco_item" />
-              <label for="nome">Nome</label>
+              <input type="text" name="rua" id="rua"   required  class="endereco_item" />
+              <label for="rua">Rua e Numero</label>
             </div>
             <div class="grupo-nome" >
-              <input type="text" name="sobrenome" id="sobrenome"  required class="endereco_item" />
-              <label for="sobrenome">Sobrenome</label>
+              <input type="text" name="bairro" id="bairro"  required class="endereco_item" />
+              <label for="bairro">Bairro</label>
             </div>
 
             <div class="campos_nome">
             <div class="grupo-nome">
-              <input type="text" name="nome" id="nome" size="10" required />
-              <label for="nome">Nome</label>
+              <input type="text" name="cidade" id="cidade" class="endereco_campo" required />
+              <label for="cidade">Cidade</label>
             </div>
             <div class="grupo-nome">
-              <input type="text" name="sobrenome" id="sobrenome" size="25" required />
-              <label for="sobrenome">Sobrenome</label>
+              <input type="text" name="estado" id="estado" class="endereco_campo" required />
+              <label for="estado">Estado</label>
             </div>
           </div>
           <div class="campos_nome">
             <div class="grupo-nome">
-              <input type="text" name="nome" id="nome" size="10" required />
+              <input type="text" name="nome" id="nome" class="endereco_campo"required />
               <label for="nome">Nome</label>
             </div>
             <div class="grupo-nome">
-              <select name="" id="">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+              <select name="pais" id="pais">
+                <option value="brasil">Brasil</option>
+                <option value="alemanha">Alemanha</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="japao">japao</option>
               </select>
-              <label for="sobrenome">Sobrenome</label>
+              <label for="pais">Pais</label>
             </div>
           </div>
-
-
          </div>
-
-
         </div>
 
+   <div class="campo">
+          <label class="titulo titulo_extendido">Telefone / Celular </label>
+          <div class="campos_nome">
+            <div class="grupo-nome">
+              <input type="text" name="codigo_telefone" id="codigo_telefone" size="32" required />
+              <label for="codigo_telefone">Código</label>
+            </div>
+            <span>-</span>
+            <div class="grupo-nome">
+              <input type="text" name="numero_telefone" id="numero_telefone" size="32" required />
+              <label for="numero_telefone">Número</label>
+            </div>
+          </div>
+        </div>
 
+      <div class="campo">
+        <label for="tema" class="titulo"> Tema do vale:</label>
+          <div>
+           <select name="tema" id="tema" class="caixa_selecao">
+             <option value="" disabled selected>Please Select</option>
+                <option value="presente">Presente</option>
+                <option value="comemoração">Comemoração</option>
+                <option value="aniversario">Aniversario</option>
+           </select>
+          </div>
+        </div>
+  
+        <div class="campo">
+          <label class="titulo" for="valor_vale"> Valor do Vale </label>
+          <div class="campos_nome">
+            <div class="grupo-nome">
+              <input type="text" name="valor_vale" id="valor_vale" required placeholder="R# 32,00" />
+              <label>Valor entre R$32,00 e R$ 1000,00</label>
+            </div>
+        </div>
+        </div>
 
+        <div class="campo">
+        <label for="tema" class="titulo"> Divulgar seu Nome? </label>
+          <div>
+           <select name="tema" id="tema" class="caixa_selecao">
+                <option value="" disabled selected>Please Select</option>
+                <option value="sim">Sim</option>
+                <option value="não">Não</option>
+           </select>
+          </div>
+        </div>
+
+         <div class="campo">
+          <label class="titulo titulo_extendido">Observações </label>
+          <div class="campos_nome titulo_extendido">
+           <textarea name="obs" id="obs"></textarea>
+          </div>
+        </div>
+
+     
+        <div class="campo">
+    <label class="titulo">Digite a imagem:</label>
+
+    <div class="h-captcha"
+         data-sitekey="10000000-ffff-ffff-ffff-000000000001">
+    </div>
+</div>
+
+  <div class="campo">
+            <button>Enviar</button>
+          </div>
       </form>
+
+      <div><p>Voce recebera em seu email o boleto referente ao valor que voce escolheu o vale-presentes.Esse e-mail pode demorar até 24h para ser enviado.
+        Qualquer duvida entre em contato com nossa equipe no e-mail: contato@upmartinopolis.com
+      </p></div>
+
     </div>
   </body>
 </html>
