@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 1980px;
+}
+
+.cabecalho{
+    height: 810px;
+     background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./img/banner.png");
+    background-size: cover;
+    background-position-x: 100%;
+     background-position-y: 100%;
+}
+.logo{
+    width: 200px;
+}
+.padding-menu{
+   
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nav-link {
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.padding-grande{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
