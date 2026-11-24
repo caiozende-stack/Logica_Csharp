@@ -29,10 +29,42 @@ body{
 }
 
 .nav-link:hover {
-    color: #000000;
+    color: #ffffff;
+    transform: scale(1.15);
 }
 
 .padding-grande{
     padding-top: 80px;
     padding-bottom: 80px;
+}
+.area-passeio{
+    background-color: white;
+    color: black;
+    padding-bottom:100px ;
+}
+
+.area-valores{
+    background-color: #f9ead8;
+     padding-bottom:100px ;
+}
+
+.card-img{
+    height: 300px;
+}
+.card{
+    background-color: rgb(255, 115, 0);
+}
+.btn-1{
+    width: 200px;
+    border-color: aliceblue;
+}
+table{
+    width: 600px;
+    table-layout: fixed;
+}
+
+.area-valores th,
+.area-valores td {
+    background-color: #d9d9d9;
+    color: black;
 }
